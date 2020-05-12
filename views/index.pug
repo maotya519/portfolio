@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+html(lang="ja")
+    head
+        include layout/head
+
+    body
+        .container
+            include layout/header
+
+            .row
+                .col.col-lg-10.mt-5
+                    .card.card-cascade.mt-5
+                        .view.view-cascade.overlay
+                            img.card-img-top(src="/public/development/images/sample/image.jpg" height="100%" width="100%")
+                            a(href="")
+                                .mask.rgba-white-slight
+                        .card-body.card-body-cascade.text-center
+                            h4.card-title.mt-2
+                                strong Mao Tsunoda
+                            h6.font-weight-bold.indigo-text.py-2 Mobile shop clerk
+                            i.fas.fa-birthday-cake.pr-2
+                                span.card-text.mb-0 1998/05/19
+
+                            p.card-text Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus, ex, recusandae. Facere modi sunt, quod quibusdam.
+                            a(href="#!")
+                                i.fab.fa-github
+
+            section.mb-4
+                h2.h1-responsive.font-weight-bold.text-center.mt-5.mb-4 works
+                p
+                    |   主にJavaScriptを用いてブラウザで遊べるゲームを作って遊んでおります。
+                    br
+                    |   作品集も載せているのでもし宜しければ遊んでみてください。
+                a(href="#!")
+                    .card(width=" 18rem").mb-5
+
+                        img.card-img-top(src="/public/development/images/sample/user.webp")
+                        a(href="")
+                            .mask.rgba-white-slight
+                        .card-body
+                            h5.card-title Card width stretched link
+                            p.card-text Some quick example text to build on the card title and make up the bulk of the card's content.
+                            a.stretched-link(href="#!") Go somewhere
+
+            .row
+                .col.text-center.mt-5
+                    h2.h1-responsive.font-weight-bold.text-center.my-4 language
+            //- form
+            section.mb-4
+                h2.h1-responsive.font-weight-bold.text-center.my-4 Contact us
+                p.text-center.w-responsive.mx-auto.mb-5 Do you have any questions? Please do not hesitate to contact us directly. Our team will come back to you within a matter of hours to help you.
+                .row
+                    .col-md-9.mb-md-0.mb-5
+                        form#contact-form.needs-validation( name="contact-form" action=""  novalidate)
+                            .row
+                                .col-md-6
+                                    .md-form.mb-0
+                                        input#validationCustom01.form-control(type="text" name="name" required)
+                                        label(for="name") Your name
+                                        .valid-feedback Looks good!
+                                .col-md-6
+                                    .md-form.mb-0
+                                        input#validationCustom01.form-control(type="text" name="email" required)
+                                        label(for="email") Your email
+                                        .valid-feedback Looks good!
+                            .row
+                                .col-md-12
+                                    .md-form.mb-0
+                                        input#validationCustom01.form-control(type="text" name="subject" required)
+                                        label(for="subject") Subject
+                                        .valid-feedback Looks good!
+                            .row
+                                .col-md-12
+                                    .md-form
+                                        textarea#validationCustom01.form-control.md-textarea(type="text" name="message" rows="4" required)
+                                        level(for="message") Your message
+                                        .valid-feedback Looks good!
+                                .col-md-12.center-text.mt-3
+                                    button.btn.btn-info.btn-block(type="submit") Send
+
+
+        include layout/footer
+        include layout/script-download

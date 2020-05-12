@@ -1,0 +1,30 @@
+$bp-lg_desktops : 1200px;
+$bp-desktops : 992px;
+$bp-tablets : 768px;
+$bp-ld_phones: 576px;
+
+@mixin media($media-width) {
+    @if $media-width == tablets {
+        @media only screen and (max-width: $bp-tables) {
+            @content
+        }
+    }
+    @else if $media-width == desktops {
+        @media only screen and (max-width: $bp-desktops) {
+            @content
+        }
+    }
+    @else if $media-width == ld_phones {
+        @media only screen and (max-width: $bp-ld_phones) {
+            @content
+        }
+    }
+    @else if $media-width == lg_desktops {
+        @media only screen and (max-width: $bp-lg_desktops) {
+            @content
+        }
+    }
+}
+.fa-github {
+    color: #333;
+}
