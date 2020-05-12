@@ -1,0 +1,81 @@
+[2020-05-12T20:52:44.886] [ERROR] system - /Users/mao_programming/Developments/2020/private/portfolio/views/index.pug:86:1
+    84| 
+    85| 
+  > 86|         include layout/footer
+--------^
+    87|         include layout/script-download
+    88| 
+
+Inconsistent indentation. Expecting either 0 or 12 spaces/tabs.
+[2020-05-12T20:52:52.098] [ERROR] system - /Users/mao_programming/Developments/2020/private/portfolio/views/index.pug:86:1
+    84| 
+    85| 
+  > 86|         include layout/footer
+--------^
+    87|         include layout/script-download
+    88| 
+
+Inconsistent indentation. Expecting either 0 or 12 spaces/tabs.
+[2020-05-12T20:52:53.177] [ERROR] system - /Users/mao_programming/Developments/2020/private/portfolio/views/index.pug:86:1
+    84| 
+    85| 
+  > 86|         include layout/footer
+--------^
+    87|         include layout/script-download
+    88| 
+
+Inconsistent indentation. Expecting either 0 or 12 spaces/tabs.
+[2020-05-12T20:53:05.028] [ERROR] system - /Users/mao_programming/Developments/2020/private/portfolio/views/index.pug:86:1
+    84| 
+    85| 
+  > 86|         include layout/footer
+--------^
+    87|         include layout/script-download
+    88| 
+
+Inconsistent indentation. Expecting either 0 or 12 spaces/tabs.
+[2020-05-12T23:58:19.985] [ERROR] system - Cannot read property 'count' of undefined
+[2020-05-12T23:59:00.174] [ERROR] system - Cannot read property 'count' of undefined
+[2020-05-12T23:59:01.416] [ERROR] system - Cannot read property 'count' of undefined
+[2020-05-12T23:59:08.595] [ERROR] system - Cannot read property 'count' of undefined
+[2020-05-13T00:01:21.175] [ERROR] system - Cannot read property 'count' of undefined
+[2020-05-13T00:01:26.987] [ERROR] system - Cannot read property 'count' of undefined
+[2020-05-13T00:16:21.840] [ERROR] system - ENOENT: no such file or directory, open '/Users/mao_programming/Developments/2020/private/portfolio/views/contents/layout/head.pug'
+    at /Users/mao_programming/Developments/2020/private/portfolio/views/contents/works.pug line 4
+[2020-05-13T00:16:29.671] [ERROR] system - ENOENT: no such file or directory, open '/Users/mao_programming/Developments/2020/private/portfolio/views/contents/layout/head.pug'
+    at /Users/mao_programming/Developments/2020/private/portfolio/views/contents/works.pug line 4
+[2020-05-13T00:16:32.110] [ERROR] system - ENOENT: no such file or directory, open '/Users/mao_programming/Developments/2020/private/portfolio/views/contents/layout/head.pug'
+    at /Users/mao_programming/Developments/2020/private/portfolio/views/contents/works.pug line 4
+[2020-05-13T00:16:42.849] [ERROR] system - Failed to lookup view "./works.pug" in views directory "/Users/mao_programming/Developments/2020/private/portfolio/views"
+[2020-05-13T00:19:42.594] [ERROR] system - Failed to lookup view "./works.pug" in views directory "/Users/mao_programming/Developments/2020/private/portfolio/views"
+[2020-05-13T00:19:51.341] [ERROR] system - ENOENT: no such file or directory, open '/Users/mao_programming/Developments/2020/private/portfolio/views/contents/layout/head.pug'
+    at /Users/mao_programming/Developments/2020/private/portfolio/views/contents/works.pug line 4
+[2020-05-13T00:20:21.520] [ERROR] system - ENOENT: no such file or directory, open '/Users/mao_programming/Developments/2020/private/portfolio/views/contents/layout/head.pug'
+    at /Users/mao_programming/Developments/2020/private/portfolio/views/contents/works.pug line 4
+[2020-05-13T00:26:30.932] [ERROR] system - Failed to lookup view "/views/contents/works" in views directory "/Users/mao_programming/Developments/2020/private/portfolio/views"
+[2020-05-13T00:26:36.685] [ERROR] system - Failed to lookup view "/views/contents/works.pug" in views directory "/Users/mao_programming/Developments/2020/private/portfolio/views"
+[2020-05-13T00:27:28.342] [ERROR] system - Failed to lookup view "/views/contents/works.pug" in views directory "/Users/mao_programming/Developments/2020/private/portfolio/views"
+[2020-05-13T00:34:40.140] [ERROR] system - Failed to lookup view "/works.pug" in views directory "/Users/mao_programming/Developments/2020/private/portfolio/views"
+[2020-05-13T00:34:51.480] [ERROR] system - Failed to lookup view "/works" in views directory "/Users/mao_programming/Developments/2020/private/portfolio/views"
+[2020-05-13T00:36:20.879] [ERROR] system - Failed to lookup view "/works.pug" in views directory "/Users/mao_programming/Developments/2020/private/portfolio/views"
+[2020-05-13T00:37:14.172] [ERROR] system - Cannot set headers after they are sent to the client
+[2020-05-13T01:09:47.594] [ERROR] system - /Users/mao_programming/Developments/2020/private/portfolio/views/works.pug:21:1
+    19|                                             a Card Title
+    20|                                         p.card-text Some quick example text to build on the card title and make up the bulk of the card' content.
+  > 21|                                 .card.mb-5.wow.fadeInUp
+--------^
+    22|                                     img.card-img-top(src="/public/development/images/sample/image.jpg")
+    23|                                     .card-body
+    24|                                         h4.card-title
+
+Inconsistent indentation. Expecting either 24 or 36 spaces/tabs.
+[2020-05-13T01:09:49.387] [ERROR] system - /Users/mao_programming/Developments/2020/private/portfolio/views/works.pug:21:1
+    19|                                             a Card Title
+    20|                                         p.card-text Some quick example text to build on the card title and make up the bulk of the card' content.
+  > 21|                                 .card.mb-5.wow.fadeInUp
+--------^
+    22|                                     img.card-img-top(src="/public/development/images/sample/image.jpg")
+    23|                                     .card-body
+    24|                                         h4.card-title
+
+Inconsistent indentation. Expecting either 24 or 36 spaces/tabs.

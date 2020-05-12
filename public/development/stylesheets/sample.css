@@ -1,3 +1,19 @@
 .fa-github {
   color: #333;
 }
+
+.fa-gitlab {
+  color: orange;
+}
+
+#loading {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  z-index: 9999;
+}
+
+.loaded {
+  opacity: 0;
+  visibility: hidden;
+}
